@@ -1,0 +1,5 @@
+{
+  "name": "MediWait AI - CUP Simulator",
+  "description": "Sistema di simulazione e audit liste di attesa sanitarie basato su AI. Monitora la compliance delle priorità e l'apertura delle agende.",
+  "requestFramePermissions": []
+}
