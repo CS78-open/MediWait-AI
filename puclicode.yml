@@ -1,0 +1,45 @@
+# Questo file è generato secondo lo standard Developers Italia
+# Riferimento: https://docs.italia.it/italia/developers-italia/publiccodeyml/it/master/index.html
+publiccodeYmlVersion: "0.2"
+name: MediWait AI
+releaseDate: "2024-03-20"
+softwareType: web
+url: "https://github.com/marcopingitore/mediwait-ai"
+landingPage: "https://github.com/marcopingitore/mediwait-ai#readme"
+shortDescription: >
+  Sistema di simulazione e audit per la gestione delle liste di attesa sanitarie (CUP) basato su Intelligenza Artificiale.
+longDescription: >
+  MediWait AI è un'applicazione progettata per simulare i flussi di prenotazione delle impegnative mediche (NRE) 
+  e analizzare il rispetto delle priorità cliniche (U, B, D, P). Il sistema integra Google Gemini AI 
+  per agire come auditor intelligente, identificando automaticamente colli di bottiglia, come agende chiuse 
+  o tempi d'attesa eccessivi, e suggerendo azioni correttive strategiche alla direzione sanitaria.
+isBasedOn: "https://github.com/google/generative-ai-js"
+softwareVersion: "1.0.0"
+developmentStatus: concept
+legal:
+  license: "EUPL-1.2"
+  repoOwner: "Marco Pingitore"
+maintenance:
+  type: none
+  contacts:
+    - name: Marco Pingitore
+      email: marco@marcopingitore.it
+localization:
+  localizationReady: true
+  availableLanguages:
+    - it
+it:
+  conformance: {}
+  countryExtensionVersion: "0.2"
+  piattaforme:
+    - altra
+categories:
+  - sanita
+  - trasparenza
+  - software-di-analisi-e-monitoraggio
+features:
+  - "Simulazione real-time dei flussi di prenotazione specialistica (CUP)"
+  - "Verifica automatica della compliance ai tempi massimi d'attesa (U, B, D, P)"
+  - "Audit qualitativo automatizzato tramite Gemini AI per l'identificazione di colli di bottiglia"
+  - "Dashboard interattiva con statistiche di conformità e tempi medi per reparto"
+  - "Modellazione di agende aperte/chiuse per medici e strutture ospedaliere"
